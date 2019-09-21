@@ -1,0 +1,542 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+    margin-bottom: 70px; 
+}
+
+.heading {
+  width: 180px;
+  height: 18px;
+  font-size: 18.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+}
+
+.img-container1 {
+  background-image: url("./college_02.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 639px;
+  height: 234px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  position: relative;
+}
+
+.img-container2 {
+  background-image: url("./college_01.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 639px;
+  height: 234px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  position: relative;
+}
+
+.college-card1 {
+  float: left;
+  width: 639px;
+  height: 397px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #444444;
+  background-color: #ffffff;
+}
+
+.college-card2 {
+  float: right;
+  width: 639px;
+  height: 397px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #444444;
+  background-color: #ffffff;
+}
+
+.promoted {
+  width: 127px;
+  height: 33px;
+  background-color: #1999d2;
+  text-align: right;
+  position: absolute;
+  top: -16px;
+  right: 0px;
+}
+
+.promoted-right-arrow {
+  height: 0px;
+  width: 0px;
+  border-top: 16.5px solid #1999d2;
+  border-bottom: 16.5px solid #1999d2;
+  border-left: 26px solid transparent;
+  position: absolute;
+  right: 127px;
+  top: -16px;
+}
+
+.promoted .text {
+  width: 73px;
+  height: 11px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  vertical-align: sub;
+  margin-right: 31px;
+}
+
+.numeric-rating {
+  width: 85px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: #f5a626;
+  float: right;
+  margin: 2.2%;
+}
+
+.numeric-rating-content {
+  width: 67px;
+  height: 35px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 4px 10px;
+}
+
+.numeric-rating-content .text-style {
+  font-size: 18.5px;
+  font-weight: 700;
+}
+
+.rating {
+  margin-left: 6px;
+}
+
+.star-size {
+  height: 13px;
+}
+
+.round-span {
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+  float: left;
+  position: relative;
+  padding: 0px 2px;
+  margin-right: 7px;
+}
+
+.round-span.width-1 {
+  width: 135px;
+}
+
+.round-span.width-2 {
+  width: 93px;
+}
+
+.best-college {
+  width: 100px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  position: relative;
+  top: 5px;
+  left: 6px;
+}
+
+.college-distance {
+  width: 63px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  position: relative;
+  top: 5px;
+  left: 11px;
+}
+
+.college-other-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 10px;
+}
+
+.college-other-details span:nth-child(3) {
+  float: right;
+  color: #ffffff;
+  position: relative;
+  top: 5px;
+}
+
+.details-container {
+  margin: 14px 12px;
+  height: 10px;
+  position: relative;
+}
+
+.college-name-container {
+  float: left;
+}
+.college-name-1 {
+  width: 260px;
+  height: 17px;
+  font-size: 18.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+.college-name-2 {
+  width: 258px;
+  height: 17px;
+  font-size: 18.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a81e2;
+}
+
+.price-container {
+  float: right;
+  margin-right: 14px;
+  position: relative;
+  top: -1px;
+}
+
+.price {
+  width: 37px;
+  height: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: line-through;
+  color: #444444;
+}
+
+.discount-container-left-arrow {
+  height: 0px;
+  width: 0px;
+  border-top: 9.5px solid transparent;
+  border-bottom: 9.5px solid transparent;
+  border-right: 7px solid #dd1c26;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 4px;
+}
+
+.college-card2 .discount-container-left-arrow {
+  left: 5px;
+}
+
+.discount-container {
+  width: 29px;
+  height: 14px;
+  background-color: #dd1c26;
+  padding: 0px 5px;
+}
+
+.discount-container .discount-content {
+  width: 10px;
+  height: 9px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -2px;
+}
+
+.college-address {
+  padding: 0 13px;
+  height: 40px;
+  position: relative;
+}
+
+.college-address .address-distance-container {
+  float: left;
+  position: relative;
+  top: 3px;
+}
+
+.college-address .discounted-price-duration-container {
+  float: right;
+  position: relative;
+}
+
+.college-address .address {
+  width: 196px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+.college-address .distance {
+  width: 157px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+
+.college-address .discounted-price {
+  width: 85px;
+  height: 26px;
+  font-size: 28.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dd1c26;
+  position: relative;
+  right: -5px;
+}
+
+.college-address .duration {
+  width: 106px;
+  height: 10px;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  position: relative;
+  right: 11px;
+}
+
+.matches {
+  padding: 0 13px;
+  height: 36px;
+  position: relative;
+  top: 4px;
+}
+
+.matches .text {
+  width: 380px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+  float: left;
+}
+
+.matches .text .match-style-1 {
+  font-weight: 700;
+  color: #37b396;
+}
+
+.matches .match-style-2 {
+  font-weight: 700;
+  color: #444444;
+}
+
+.deal1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  padding-right: 22px;
+}
+
+.deal1-container {
+  width: 347px;
+  height: 35px;
+  background-color: #ccf5e7;
+  border-radius: 0 20px 20px 0;
+  float: left;
+  position: relative;
+  top: -12px;
+  padding: 0 9px;
+}
+
+.deal1-content {
+  width: 309px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  position: relative;
+  top: 5px;
+}
+
+.deal1-content .font-1 {
+  font-weight: 500;
+}
+
+.deal1-content .color-1 {
+  color: #4bb89e;
+}
+
+.deal1-content .color-2 {
+  color: #1999d2;
+}
+
+.free-cancelation-wifi {
+  float: right;
+  position: relative;
+  top: -3px;
+}
+
+.deal1 .free-cancelation-wifi {
+  top: -6px;
+}
+
+.free-cancelation-wifi .cancelation {
+  width: 101px;
+  height: 10px;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+}
+
+.free-cancelation-wifi .wifi {
+  width: 60px;
+  height: 10px;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+}
+
+.matches-container {
+  padding-top: 18px;
+}
+
+.deal2 {
+  position: relative;
+  padding-left: 13px;
+}
+
+.deal-tag-left-arrow {
+  height: 0px;
+  width: 0px;
+  border-top: 12.5px solid #4bb89e;
+  border-bottom: 12.5px solid #4bb89e;
+  border-right: 25px solid transparent;
+  position: relative;
+  float: left;
+}
+.deal2 .deal-tag {
+  width: 34px;
+  height: 19px;
+  background-color: #4bb89e;
+  text-align: center;
+  float: left;
+  padding: 3px 7px 3px 10px;
+}
+
+.deal2 .deal-tag .deal-label {
+  width: 31px;
+  height: 10px;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+}
+
+.deal2 .deal2-content {
+  position: relative;
+  left: 5px;
+}
+
+.deal2 .deal2-content .text {
+  width: 281px;
+  height: 13px;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4bb89e;
+}
+
+.deal2 .deal2-content .text-1 {
+  font-weight: 500;
+}
